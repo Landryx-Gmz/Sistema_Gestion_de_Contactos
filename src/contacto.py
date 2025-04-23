@@ -1,7 +1,7 @@
 class Contacto:
     contador_id = 0
 
-    def __init__(self, nombre, num_telef, email):
+    def __init__(self, nombre=str, num_telef=int, email=str):
         Contacto.contador_id += 1
         self.id_contacto = Contacto.contador_id
         self.nombre = nombre
